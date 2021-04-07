@@ -11,6 +11,7 @@ nltk = "^3.5"
 numpy = "^1.20.2"
 matplotlib = "^3.4.1"
 pandas = "^1.2.3"
+pytest = "^6.2.3" # Indirectly required by nltk
 
 [tool.poetry.dev-dependencies]
 
