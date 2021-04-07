@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "Assignment 3"
+version = "0.1.0"
+description = ""
+authors = ["Dennis Kristiansen <denniskristiansen@protonmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nltk = "^3.5"
+numpy = "^1.20.2"
+matplotlib = "^3.4.1"
+pandas = "^1.2.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
