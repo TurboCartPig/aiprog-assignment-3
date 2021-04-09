@@ -4,7 +4,7 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import sent_tokenize, word_tokenize
 
 # Define english stopwords
-stop_words = set(stopwords.words("english"))
+stop_words = set(stopwords.words("english") + [".", "!"])
 
 # Define the sentences per the assignment
 sent1 = "Very good course!!!"
